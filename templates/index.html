@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Named Entity Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/site.css">
+</head>
+<body>
+    <h1 class="app-heading"
+        data-test-id="heading">
+        Named Entity Finder
+    </h1>
+    <input type="text" id="input-text" data-test-id="input-text" class="form-control">
+    <button class="btn btn-outline-primary" type="button" id="find-button" data-test-id="find-button">
+        Find Named Entities
+    </button>
+    <table id="ner-table" data-test-id="ner-table" class="table table-bordered">
+        <thead class="thead dark">
+            <tr>
+                <th>Entity</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
